@@ -79,7 +79,7 @@ export default (ctx: ConfigContext): ExpoConfig => {
   };
   const config = withMyCustomFont(baseConfig, {
     fontFile: "./expo/ComicNeue-Regular.otf",
-    useXcodeUtils: false,
+    useXcodeUtils: true,
   })
   return config;
 };
